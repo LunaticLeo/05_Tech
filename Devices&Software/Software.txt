@@ -1,0 +1,143 @@
+Android
+
+阅读 https://github.com/gedoor/legado/releases
+QR Code Tools https://support.qq.com/products/134211/
+shadowsocks https://github.com/shadowsocks/shadowsocks-android/releases
+v2rayNG https://github.com/2dust/v2rayNG/releases
+timi记账 https://www.timitime.com/
+一叶日历 http://co55.co/calendar.html
+哔咔 http://picacgp.com/ https://manhuabika.com/pdownload/?notos=yes
+快图看看 https://github.com/WSTxda/QP-Gallery-Releases/releases
+chrome https://androidapksfree.com/chrome/com-android-chrome/
+
+QQ，微信，bilibili，QQ音乐，WPS,支付宝，豆瓣阅读，小红书，起点读书，NGA
+OKTA，Github,Google Translate,X，Teams，Youtube，Chase,BOFA,Discover,Bilt,Maps, Polestar,Geico,Temu,Wallet,Lyft,Yelp,Amazon,UberEats,Mint,Voice,Authenticator,SmartRent,TokenTransit,ElectrifyAmerica,CompanyPortal,Telegram,Spliwise
+
+==========================================================================
+
+Windows重装：
+
+Device01进bios： "esc" bios setup; "F11" startup choose；
+
+Win10下载 https://www.microsoft.com/zh-cn/software-download/windows10 使用f12，more tools->network conditions,调节network的agent为非pc，即可直接下载文件
+
+MicroSoft System ISO 
+https://files.rg-adguard.net/version/83fb91c9-107c-bdda-1ffc-2952d753a472
+https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5#:~:text=Windows%207%20with%20Service%20Pack%201%20(Updated%20August%202018)
+
+Wifi and Bluetooth Driver https://www.szedup.com/support/driver-download/pcie/ep-9651gs/
+DiskGenius 磁盘坏道 https://www.diskgenius.com/
+
+Windows 重装的时候安装完网络驱动之后就可以换成英语了
+disable recent files folders in quick access
+调节录音音量，点击输入设备，选择麦克风增强
+
+常用:
+.net framework8 https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.6-windows-x64-installer?cid=getdotnetcore
+7z software里已有 https://www.7-zip.org/
+notepad-- https://gitee.com/cxasm/notepad--/releases
+chrome offline https://www.google.com/intl/en/chrome/?standalone=1
+git https://git-scm.com/downloads
+鲁大师 https://www.ludashi.com/
+imageclass看图软件 https://imageglass.org/releases
+vlc视频软件 https://www.videolan.org/vlc/download-windows.html
+
+uTorrent https://www.utorrent.com/desktop/
+7 taskbar Tweaker(取消win10任务栏同一个软件折叠所有窗口) https://ramensoftware.com/7-taskbar-tweaker
+RegistryShortcutsW1064bit（添加或取消快捷访问）
+格式工厂 http://www.pcfreetime.com/formatfactory/cn/download.html
+v2rayN https://github.com/2dust/v2rayN/releases
+HWmonitor 温度检测 https://www.cpuid.com/softwares/hwmonitor.html
+
+办公：
+office
+adobe acrobat pro DC 2021 需要破解
+adobe photoshop 2024
+Adobe Premiere Pro 2024
+Zoom https://zoom.us/download
+
+生活：
+QQ https://im.qq.com/pcqq/index.shtml
+QQ音乐 https://y.qq.com/download/download.html
+微信 https://pc.weixin.qq.com/?lang=en_US
+steam https://store.steampowered.com/about/
+LOL https://signup.leagueoflegends.com/en-us/signup/redownload
+discord https://discord.com/download
+
+工具：
+wepe https://www.wepe.com.cn/download.html
+ventory https://www.ventoy.net/cn/download.html
+potplayer视频软件 https://potplayer.daum.net/
+mpv视频软件 https://mpv.io/installation/
+
+国内下载软件：
+迅雷 https://www.xunlei.com/
+百度网盘 https://pan.baidu.com/download#win
+
+翻墙：
+shadowsocks https://github.com/shadowsocks/shadowsocks-windows/releases
+v2rayN https://github.com/2dust/v2rayN/releases
+steam community创意工坊 国内访问 https://www.dogfight360.com/blog/
+
+==================================================================
+
+Windows coding：
+
+Git https://git-scm.com/downloads
+VSCode https://code.visualstudio.com/download
+Xschell https://www.netsarang.com/en/xshell/
+C/C++ https://www.codeblocks.org/downloads/
+Eclipse(J2EE) https://www.eclipse.org/downloads/packages/
+Maven https://maven.apache.org/download.cgi
+Tomcat https://tomcat.apache.org/
+Python（Al Users） https://www.python.org/downloads/
+Nodejs https://nodejs.org/en
+MySQL https://dev.mysql.com/downloads/
+PostgreSQL https://www.postgresql.org/download/windows/
+DBeaver https://dbeaver.io/download/
+MongoDB https://www.mongodb.com/try/download/community
+MongoDB Compasshttps://www.mongodb.com/try/download/compass
+
+Jupyter安装  
+#check if python in the user/roaming 
+#administrator mode 
+python3/python -m pip install --upgrade pip
+python -m pip install jupyterlab
+jupyter lab #localhost:8888/lab
+
+Java安装
+JRE只是运行用，无法开发。JDK8和JDK17都是长期维护的JDK版本，建议JDK17，JDK8支持时间最长，但是Spring Framework 6 将采用 Java 17 和 Jakarta EE 9。
+JDK8 https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+JDK17 https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+下载安装包之后需要配置环境，Windows环境下需要添加环境变量，有两种方法
+#以管理员权限打开命令行，运行如下命令
+setx -m JAVA_HOME "C:\Program Files\Java\jdk-17"
+setx -m PATH "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\lib;"
+#手动打开系统环境
+JAVA_HOME: C:\Program Files\Java\jdk-17 #新建
+PATH： ;%JAVA_HOME%\bin;%JAVA_HOME%\lib; #原内容上添加
+#安装完成后运行cmd运行如下命令，查看是否配置成功，两条命令需都能显示。环境配置需保存之后重开cmd才能生效
+java -version
+javac -version
+
+===================================================
+
+Fire TV
+
+adblink PC上管理安卓电视，可以直接添加文件，安装软件 http://www.jocala.com/adblink.html
+
+Launcher Manager https://troypoint.com/troypoint-toolbox/
+adb shell pm grant com.wolf.minilm android.permission.SYSTEM_ALERT_WINDOW
+adb shell pm grant com.wolf.minilm android.permission.READ_LOGS
+adb shell dumpsys deviceidle whitelist +com.wolf.minilm
+
+Wolf Launcher
+
+File Manager https://play.google.com/store/apps/details?id=com.alphainventor.filemanager&hl=en_US
+VLC Media Player https://play.google.com/store/apps/details?id=org.videolan.vlc
+blibili https://app.bilibili.com/?spm_id_from=333.976.0.0
+
+BiglyBT https://github.com/BiglySoftware/BiglyBT-Android/releases
+TVbro browswer https://play.google.com/store/apps/details?id=com.phlox.tvwebbrowser&hl=en_US
+
+===================================================

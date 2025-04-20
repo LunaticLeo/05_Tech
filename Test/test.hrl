@@ -1,0 +1,1 @@
+-record(ship,{id,name}).
