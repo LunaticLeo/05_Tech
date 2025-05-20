@@ -141,3 +141,6 @@ BiglyBT https://github.com/BiglySoftware/BiglyBT-Android/releases
 TVbro browswer https://play.google.com/store/apps/details?id=com.phlox.tvwebbrowser&hl=en_US
 
 ===================================================
+
+SamSung Smart Hub
+OS： Tizen
