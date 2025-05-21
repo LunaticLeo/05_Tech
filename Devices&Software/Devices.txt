@@ -18,11 +18,6 @@ Insignia Fire TV (Best Buy)
 60 HZ; Model Year 2023; Series F30 Series
 https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-edition-smart-tv-na.html?v=ftveditioninsignia4k_2020
 
-=====================================
-
-G1 Android TV Box (Temu已退)
-Android 11
-
 ======================================================
 
 大文件格式 NTFS，exFAT，安卓不支持NTFS。
