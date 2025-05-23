@@ -40,7 +40,8 @@ chrome offline https://www.google.com/intl/en/chrome/?standalone=1
 git https://git-scm.com/downloads
 鲁大师 https://www.ludashi.com/
 imageclass看图软件 https://imageglass.org/releases
-vlc视频软件 https://www.videolan.org/vlc/download-windows.html
+Potplaer视频软件 https://potplayer.info/download/
+VLC视频软件 https://www.videolan.org/vlc/download-windows.html
 
 uTorrent https://www.utorrent.com/desktop/
 7 taskbar Tweaker(取消win10任务栏同一个软件折叠所有窗口) https://ramensoftware.com/7-taskbar-tweaker
@@ -81,7 +82,7 @@ steam community创意工坊 国内访问 https://www.dogfight360.com/blog/
 
 ==================================================================
 
-Windows coding：
+Windows Coding：
 
 Git https://git-scm.com/downloads
 VSCode https://code.visualstudio.com/download
@@ -123,15 +124,12 @@ javac -version
 ===================================================
 
 Fire TV
-
 adblink PC上管理安卓电视，可以直接添加文件，安装软件 http://www.jocala.com/adblink.html
 
-Launcher Manager https://troypoint.com/troypoint-toolbox/
+Launcher Manager https://troypoint.com/troypoint-toolbox/ ；选Wolf Launcher
 adb shell pm grant com.wolf.minilm android.permission.SYSTEM_ALERT_WINDOW
 adb shell pm grant com.wolf.minilm android.permission.READ_LOGS
 adb shell dumpsys deviceidle whitelist +com.wolf.minilm
-
-Wolf Launcher
 
 File Manager https://play.google.com/store/apps/details?id=com.alphainventor.filemanager&hl=en_US
 VLC Media Player https://play.google.com/store/apps/details?id=org.videolan.vlc
@@ -142,5 +140,15 @@ TVbro browswer https://play.google.com/store/apps/details?id=com.phlox.tvwebbrow
 
 ===================================================
 
-SamSung Smart Hub
-OS： Tizen
+SamSung Smart Hub （OS： Tizen非常不好用）
+
+===================================================
+
+如何电视上看本地视频：
+大文件格式 NTFS，exFAT，安卓不支持NTFS。
+Fire TV默认格式化为FAT32，且只支持FAT32，只能下载4GB以下的文件。
+G1电视盒子不支持BiglyBT下载到外部存储，即使用utorrent下载之后到外部存储不能访问。
+电视盒子格式化硬盘为内部存储之后可行，但是还是相当于安卓系统盘，PC读取不了。
+最后电视上看视频方法：下载到电脑上，PC端启用SMB，不能用administrator账号和密码访问，但是可以设置network share，使其可以匿名访问。
+PC端启用SMB： Control Panel -> Programs -> Turn Windows features on or off -> SMB 1.0/CIFS(Enable)
+
