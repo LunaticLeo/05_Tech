@@ -51,8 +51,9 @@ v2rayN https://github.com/2dust/v2rayN/releases
 HWmonitor 温度检测 https://www.cpuid.com/softwares/hwmonitor.html
 
 办公：
-office
-adobe acrobat pro DC 2021 需要破解
+office 
+adobe https://helpx.adobe.com/support.html
+adobe acrobat pro https://helpx.adobe.com/acrobat/kb/acrobat-dc-downloads.html
 adobe photoshop 2024
 Adobe Premiere Pro 2024
 Zoom https://zoom.us/download
@@ -77,7 +78,8 @@ MKV批量内封字幕 https://github.com/yaser01/mkv-muxing-batch-gui/releases
 迅雷 https://www.xunlei.com/
 百度网盘 https://pan.baidu.com/download#win
 
-翻墙：
+破解翻墙：
+Adobe破解: Adobe GenP v3.6.8 CGP
 shadowsocks https://github.com/shadowsocks/shadowsocks-windows/releases
 v2rayN https://github.com/2dust/v2rayN/releases
 steam community创意工坊 国内访问 https://www.dogfight360.com/blog/
