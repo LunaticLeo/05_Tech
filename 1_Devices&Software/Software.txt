@@ -13,7 +13,7 @@ chrome https://androidapksfree.com/chrome/com-android-chrome/
 QQ，微信，bilibili，QQ音乐，WPS,支付宝，豆瓣阅读，小红书，起点读书，NGA
 OKTA，Github,Google Translate,X，Teams，Youtube，Chase,BOFA,Discover,Bilt,Maps, Polestar,Geico,Temu,Wallet,Lyft,Yelp,Amazon,UberEats,Mint,Voice,Authenticator,SmartRent,TokenTransit,ElectrifyAmerica,CompanyPortal,Telegram,Spliwise
 
-==========================================================================
+==================================
 
 Windows重装：
 
@@ -84,7 +84,7 @@ shadowsocks https://github.com/shadowsocks/shadowsocks-windows/releases
 v2rayN https://github.com/2dust/v2rayN/releases
 steam community创意工坊 国内访问 https://www.dogfight360.com/blog/
 
-==================================================================
+==================================
 
 Windows Coding：
 
@@ -125,7 +125,7 @@ PATH： ;%JAVA_HOME%\bin;%JAVA_HOME%\lib; #原内容上添加
 java -version
 javac -version
 
-===================================================
+==================================
 
 Fire TV
 adblink PC上管理安卓电视，可以直接添加文件，安装软件 http://www.jocala.com/adblink.html
@@ -142,11 +142,11 @@ blibili https://app.bilibili.com/?spm_id_from=333.976.0.0
 BiglyBT https://github.com/BiglySoftware/BiglyBT-Android/releases
 TVbro browswer https://play.google.com/store/apps/details?id=com.phlox.tvwebbrowser&hl=en_US
 
-===================================================
+==================================
 
 SamSung Smart Hub （OS： Tizen非常不好用）
 
-===================================================
+==================================
 
 如何电视上看本地视频：
 大文件格式 NTFS，exFAT，安卓不支持NTFS。
@@ -156,3 +156,7 @@ G1电视盒子不支持BiglyBT下载到外部存储，即使用utorrent下载之
 最后电视上看视频方法：下载到电脑上，PC端启用SMB，不能用administrator账号和密码访问，但是可以设置network share，使其可以匿名访问。
 PC端启用SMB： Control Panel -> Programs -> Turn Windows features on or off -> SMB 1.0/CIFS(Enable)
 PC端启动DLNA（播放时无法选择字幕，建议提前内封字幕到视频里）：
+
+==================================
+
+安卓手机传照片到PC，选skip
