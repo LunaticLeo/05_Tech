@@ -17,28 +17,28 @@ OKTA，Github,Google Translate,X，Teams，Youtube，Chase,BOFA,Discover,Bilt,Ma
 
 Windows重装：
 
-Device01进bios： "esc" bios setup; "F11" startup choose；
+Windows官网下载 https://www.microsoft.com/zh-cn/software-download/windows10 使用f12，more tools->network conditions,调节network的agent为非pc，即可直接下载文件
 
-Win10下载 https://www.microsoft.com/zh-cn/software-download/windows10 使用f12，more tools->network conditions,调节network的agent为非pc，即可直接下载文件
-
-MicroSoft System ISO 
+Windows第三方网站ISO： https://files.rg-adguard.net/ 
 https://files.rg-adguard.net/version/83fb91c9-107c-bdda-1ffc-2952d753a472
-https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5#:~:text=Windows%207%20with%20Service%20Pack%201%20(Updated%20August%202018)
 
+Device01 
+进bios： "esc" bios setup; "F11" startup choose；
 Wifi and Bluetooth Driver https://www.szedup.com/support/driver-download/pcie/ep-9651gs/
-DiskGenius 磁盘坏道 https://www.diskgenius.com/
 
 Windows 重装的时候安装完网络驱动之后就可以换成英语了
 disable recent files folders in quick access
 调节录音音量，点击输入设备，选择麦克风增强
+Nvidia调整颜色显示设置为full
+安装完软件后设置启动项
 
 常用:
 .net framework8 https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.6-windows-x64-installer?cid=getdotnetcore
-7z software里已有 https://www.7-zip.org/
+7z（已有） https://www.7-zip.org/
 notepad-- https://gitee.com/cxasm/notepad--/releases
 chrome offline https://www.google.com/intl/en/chrome/?standalone=1
 git https://git-scm.com/downloads
-鲁大师 https://www.ludashi.com/
+驱动 Driver Booster https://www.iobit.com/en/driver-booster.php
 imageclass看图软件 https://imageglass.org/releases
 Potplaer视频软件 https://potplayer.info/download/
 VLC视频软件 https://www.videolan.org/vlc/download-windows.html
