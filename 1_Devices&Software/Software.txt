@@ -1,14 +1,14 @@
 Android
 
 阅读 https://github.com/gedoor/legado/releases
+快图看看 https://github.com/WSTxda/QP-Gallery-Releases/releases
+一叶日历 http://co55.co/calendar.html
+chrome https://androidapksfree.com/chrome/com-android-chrome/
+timi记账 https://www.timitime.com/
 QR Code Tools https://support.qq.com/products/134211/
 shadowsocks https://github.com/shadowsocks/shadowsocks-android/releases
 v2rayNG https://github.com/2dust/v2rayNG/releases
-timi记账 https://www.timitime.com/
-一叶日历 http://co55.co/calendar.html
 哔咔 http://picacgp.com/ https://manhuabika.com/pdownload/?notos=yes
-快图看看 https://github.com/WSTxda/QP-Gallery-Releases/releases
-chrome https://androidapksfree.com/chrome/com-android-chrome/
 
 QQ，微信，bilibili，QQ音乐，WPS,支付宝，豆瓣阅读，小红书，起点读书，NGA
 OKTA，Github,Google Translate,X，Teams，Youtube，Chase,BOFA,Discover,Bilt,Maps, Polestar,Geico,Temu,Wallet,Lyft,Yelp,Amazon,UberEats,Mint,Voice,Authenticator,SmartRent,TokenTransit,ElectrifyAmerica,CompanyPortal,Telegram,Spliwise
