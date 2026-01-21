@@ -1,11 +1,12 @@
 package test_java_eclipse;
 
+import java.util.ArrayList;
+
 public class test {
     public static void main(String[] args) {
     	
-    	Object a = "aaa";
-    	System.out.println(a instanceof Object);
-        System.out.println(new Object() instanceof Integer);
-        // Incompatible conditional operand types String and ArrayList
+    	ArrayList<String> a = new ArrayList();
+    	a.add("123");
+    	System.out.print(a.isEmpty());
     }
 }
