@@ -1,0 +1,8 @@
+test_erlang.beam
+node_modules
+test.exe
+test.o
+*.class
+package-lock.json
+.ipynb_checkpoints
+.vscode
