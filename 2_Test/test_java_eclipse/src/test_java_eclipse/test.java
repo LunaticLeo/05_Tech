@@ -6,9 +6,11 @@ public class test {
     
     public static void main(String[] args) {
 
-    	Integer i = 100;
-    	Boolean b = false;
-    	System.out.println(Integer.compare(1, 0));
+    	String str1 = new String("123");
+    	String str2 = new String("123");
+    	
+    	System.out.print(str1==str2);
+    	
 
     }
 }
