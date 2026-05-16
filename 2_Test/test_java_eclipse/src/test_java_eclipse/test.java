@@ -3,8 +3,7 @@ package test_java_eclipse;
 import java.util.*;
 
 public class test {
-
-	public static void main(String[] args) {
-		
-	}
+    public static void main(String[] args) {
+    	
+    }
 }
