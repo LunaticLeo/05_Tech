@@ -36,14 +36,14 @@ Nvidia调整颜色显示设置为full
 .net framework8 https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.6-windows-x64-installer?cid=getdotnetcore
 7z（已有） https://www.7-zip.org/
 notepad-- https://gitee.com/cxasm/notepad--/releases
-chrome offline https://www.google.com/intl/en/chrome/?standalone=1
-git https://git-scm.com/downloads
+chrome(已有) offline https://www.google.com/intl/en/chrome/?standalone=1
+git(已有) https://git-scm.com/downloads
 驱动 Driver Booster https://www.iobit.com/en/driver-booster.php
-imageclass看图软件 https://imageglass.org/releases
+imageclass看图软件(已有) https://imageglass.org/releases
 Potplaer视频软件 https://potplayer.info/download/
 VLC视频软件 https://www.videolan.org/vlc/download-windows.html
 
-uTorrent https://www.utorrent.com/desktop/
+uTorrent https://www.utorrent.com/desktop/     https://v2rayn.co/v2rayn-latest-download/
 7 taskbar Tweaker(取消win10任务栏同一个软件折叠所有窗口) https://ramensoftware.com/7-taskbar-tweaker
 RegistryShortcutsW1064bit（添加或取消快捷访问）
 格式工厂 http://www.pcfreetime.com/formatfactory/cn/download.html
@@ -51,11 +51,11 @@ v2rayN https://github.com/2dust/v2rayN/releases
 HWmonitor 温度检测 https://www.cpuid.com/softwares/hwmonitor.html
 
 办公：
-office 
+office(已有) 
 adobe https://helpx.adobe.com/support.html
-adobe acrobat pro https://helpx.adobe.com/acrobat/kb/acrobat-dc-downloads.html
-adobe photoshop 2024 torrent
-Adobe Premiere Pro 2024 torrent
+adobe acrobat pro torrent(已有) https://helpx.adobe.com/acrobat/kb/acrobat-dc-downloads.html
+adobe photoshop 2024 torrent(已有)
+Adobe Premiere Pro 2024 torrent(已有)
 Zoom https://zoom.us/download
 
 生活：
