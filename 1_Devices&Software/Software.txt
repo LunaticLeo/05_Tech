@@ -26,6 +26,9 @@ Device01
 进bios： "esc" bios setup; "F11" startup choose；
 Wifi and Bluetooth Driver https://www.szedup.com/support/driver-download/pcie/ep-9651gs/
 
+lenvo笔记本
+进bios，FN+F2
+
 Windows 重装的时候安装完网络驱动之后就可以换成英语了
 disable recent files folders in quick access
 调节录音音量，点击输入设备，选择麦克风增强
@@ -36,14 +39,14 @@ Nvidia调整颜色显示设置为full
 .net framework8 https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.6-windows-x64-installer?cid=getdotnetcore
 7z（已有） https://www.7-zip.org/
 notepad-- https://gitee.com/cxasm/notepad--/releases
-chrome(已有) offline https://www.google.com/intl/en/chrome/?standalone=1
-git(已有) https://git-scm.com/downloads
+chrome offline https://www.google.com/intl/en/chrome/?standalone=1
+git https://git-scm.com/downloads
 驱动 Driver Booster https://www.iobit.com/en/driver-booster.php
-imageclass看图软件(已有) https://imageglass.org/releases
+imageclass看图软件 https://imageglass.org/releases
 Potplaer视频软件 https://potplayer.info/download/
 VLC视频软件 https://www.videolan.org/vlc/download-windows.html
-
-uTorrent https://www.utorrent.com/desktop/     https://v2rayn.co/v2rayn-latest-download/
+   
+qBittorrent https://www.qbittorrent.org/download
 7 taskbar Tweaker(取消win10任务栏同一个软件折叠所有窗口) https://ramensoftware.com/7-taskbar-tweaker
 RegistryShortcutsW1064bit（添加或取消快捷访问）
 格式工厂 http://www.pcfreetime.com/formatfactory/cn/download.html
@@ -63,14 +66,13 @@ QQ https://im.qq.com/pcqq/index.shtml
 QQ音乐 https://y.qq.com/download/download.html
 微信 https://pc.weixin.qq.com/?lang=en_US
 steam https://store.steampowered.com/about/
-LOL https://signup.leagueoflegends.com/en-us/signup/redownload
 discord https://discord.com/download
+LOL https://signup.leagueoflegends.com/en-us/signup/redownload
+米哈游 https://launcher.mihoyo.com/
 
 工具：
 wepe https://www.wepe.com.cn/download.html
 ventory https://www.ventoy.net/cn/download.html
-potplayer视频软件 https://potplayer.daum.net/
-mpv视频软件 https://mpv.io/installation/
 MKV内封字幕 https://mkvtoolnix.download/downloads.html#windows
 MKV批量内封字幕 https://github.com/yaser01/mkv-muxing-batch-gui/releases
 
