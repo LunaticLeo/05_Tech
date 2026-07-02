@@ -103,7 +103,7 @@ MySQL https://dev.mysql.com/downloads/
 PostgreSQL https://www.postgresql.org/download/windows/
 DBeaver https://dbeaver.io/download/
 MongoDB https://www.mongodb.com/try/download/community
-MongoDB Compasshttps://www.mongodb.com/try/download/compass
+MongoDB Compass https://www.mongodb.com/try/download/compass
 
 Jupyter安装  
 #check if python in the user/roaming 
@@ -111,6 +111,7 @@ Jupyter安装
 python3/python -m pip install --upgrade pip
 python -m pip install jupyterlab
 jupyter lab #localhost:8888/lab
+python -m jupyterlab (不设置系统变量)
 
 Java安装
 JRE只是运行用，无法开发。JDK8和JDK17都是长期维护的JDK版本，建议JDK17，JDK8支持时间最长，但是Spring Framework 6 将采用 Java 17 和 Jakarta EE 9。
