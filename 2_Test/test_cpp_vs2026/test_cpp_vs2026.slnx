@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="test_cpp_vs2026.vcxproj" Id="9fa6f28d-1f2e-4b0f-a512-c091e77cb5d5" />
+</Solution>
