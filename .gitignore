@@ -107,3 +107,23 @@ ipch/
 *.pem
 *.key
 *.crt
+
+# Eclipse 核心项目文件
+.settings/
+
+### React & Vite ###
+# Node.js 依赖目录
+node_modules/
+
+# 构建输出目录（Vite默认）
+dist/
+build/
+
+# 本地环境变量文件
+.env
+.env.local
+.env.production
+.env.development
+
+# Vite 缓存目录
+.vite/
