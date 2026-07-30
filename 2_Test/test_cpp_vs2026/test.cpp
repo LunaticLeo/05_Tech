@@ -1,33 +1,30 @@
 #include <iostream>
 using namespace std;
 
+// å…¨å±€å˜é‡å£°æ˜
+int g = 99;
 
-typedef int* pint;
-#define PINT int *
-
-int i1 = 1, i2 = 2;
-
-const pint p1 = &i1;    //p²»¿É¸ü¸Ä£¬pÖ¸ÏòµÄÄÚÈİ¿ÉÒÔ¸ü¸Ä£¬Ïàµ±ÓÚ int * const p;
-const PINT p2 = &i2;    //p¿ÉÒÔ¸ü¸Ä£¬pÖ¸ÏòµÄÄÚÈİ²»ÄÜ¸ü¸Ä£¬Ïàµ±ÓÚ const int *p£»»ò int const *p£»
-
-pint s1, s2;    //s1ºÍs2¶¼ÊÇintĞÍÖ¸Õë
-PINT s3, s4;    //Ïàµ±ÓÚint * s3£¬s4£»Ö»ÓĞÒ»¸öÊÇÖ¸Õë¡£
-
-void TestPointer()
-{
-    cout << "p1:" << p1 << "  *p1:" << *p1 << endl;
-    //p1 = &i2; //error C3892: 'p1' : you cannot assign to a variable that is const
-    *p1 = 5;
-    cout << "p1:" << p1 << "  *p1:" << *p1 << endl;
-
-    cout << "p2:" << p2 << "  *p2:" << *p2 << endl;
-    //*p2 = 10; //error C3892: 'p2' : you cannot assign to a variable that is const
-    p2 = &i1;
-    cout << "p2:" << p2 << "  *p2:" << *p2 << endl;
-}
+// å‡½æ•°å£°æ˜
+int func();
 
 int main()
 {
-	TestPointer();
+    // å±€éƒ¨å˜é‡å£°æ˜
+    int g = 10;
+    cout << g << endl;
+    int kk = func();
+    //cout << kk;
+
+
+    auto a = 0;
+
+	cout << a << endl;
+
     return 0;
+}
+
+// å‡½æ•°å®šä¹‰
+int func()
+{
+    return g;
 }
