@@ -97,7 +97,7 @@ C/C++ https://www.codeblocks.org/downloads/
 Eclipse(J2EE) https://www.eclipse.org/downloads/packages/
 Maven https://maven.apache.org/download.cgi
 Tomcat https://tomcat.apache.org/
-Python（Al Users） https://www.python.org/downloads/
+
 Nodejs https://nodejs.org/en
 MySQL https://dev.mysql.com/downloads/
 PostgreSQL https://www.postgresql.org/download/windows/
@@ -105,13 +105,25 @@ DBeaver https://dbeaver.io/download/
 MongoDB https://www.mongodb.com/try/download/community
 MongoDB Compass https://www.mongodb.com/try/download/compass
 
+#python安装
+https://www.python.org/downloads/
+管理员模式安装给All Users 
+#python 添加到PATH（注意Python目录，修改版本号）
+#用户级
+setx PATH "%PATH%;C:\Users\liaoyufu\AppData\Local\Python\pythoncore-3.14-64\Scripts"
+#系统级（管理员权限打开CMD）
+setx PATH "%PATH%;C:\Users\liaoyufu\AppData\Local\Python\pythoncore-3.14-64\Scripts" /M
+
 Jupyter安装  
 #check if python in the user/roaming 
 #administrator mode 
 python3/python -m pip install --upgrade pip
 python -m pip install jupyterlab
+#Python添加到PATH
 jupyter lab #localhost:8888/lab
-python -m jupyterlab (不设置系统变量)
+jupyter-lab
+#Python 不添加到PATH
+python -m jupyterlab 
 
 Java安装
 JRE只是运行用，无法开发。JDK8和JDK17都是长期维护的JDK版本，建议JDK17，JDK8支持时间最长，但是Spring Framework 6 将采用 Java 17 和 Jakarta EE 9。
@@ -119,8 +131,8 @@ JDK8 https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.h
 JDK17 https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 下载安装包之后需要配置环境，Windows环境下需要添加环境变量，有两种方法
 #以管理员权限打开命令行，运行如下命令
-setx -m JAVA_HOME "C:\Program Files\Java\jdk-17"
-setx -m PATH "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\lib;"
+setx JAVA_HOME "C:\Program Files\Java\jdk-17" /M
+setx PATH "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\lib;" /M
 #手动打开系统环境
 JAVA_HOME: C:\Program Files\Java\jdk-17 #新建
 PATH： ;%JAVA_HOME%\bin;%JAVA_HOME%\lib; #原内容上添加
