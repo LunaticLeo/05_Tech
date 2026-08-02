@@ -1,0 +1,1 @@
+inline int test_a = 1;

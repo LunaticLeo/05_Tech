@@ -2,6 +2,7 @@
 //
 
 #include "test_cpp_cmake.h"
+#include "test2/test2.h"
 
 using namespace std;
 
