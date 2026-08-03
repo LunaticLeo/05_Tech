@@ -51,6 +51,7 @@ qBittorrent https://www.qbittorrent.org/download
 RegistryShortcutsW1064bit（添加或取消快捷访问）
 格式工厂 http://www.pcfreetime.com/formatfactory/cn/download.html
 v2rayN https://github.com/2dust/v2rayN/releases
+Clash VPN https://clashsource.com/zh-CN/index.html
 HWmonitor 温度检测 https://www.cpuid.com/softwares/hwmonitor.html
 
 办公：
