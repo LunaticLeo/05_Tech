@@ -51,6 +51,7 @@ qBittorrent https://www.qbittorrent.org/download
 RegistryShortcutsW1064bit（添加或取消快捷访问）
 格式工厂 http://www.pcfreetime.com/formatfactory/cn/download.html
 v2rayN https://github.com/2dust/v2rayN/releases
+Clash VPN https://clashsource.com/zh-CN/index.html
 HWmonitor 温度检测 https://www.cpuid.com/softwares/hwmonitor.html
 
 办公：
@@ -91,12 +92,15 @@ steam community创意工坊 国内访问 https://www.dogfight360.com/blog/
 Windows Coding：
 
 Git https://git-scm.com/downloads
+Git Extension(公司) https://github.com/gitextensions/gitextensions/releases
 VSCode https://code.visualstudio.com/download
 Xschell https://www.netsarang.com/en/xshell/
 C/C++ https://www.codeblocks.org/downloads/
 Eclipse(J2EE) https://www.eclipse.org/downloads/packages/
 Maven https://maven.apache.org/download.cgi
 Tomcat https://tomcat.apache.org/
+CMake https: //cmake.org/download/
+VStudio 18 2026 https://visualstudio.microsoft.com/zh-hans/downloads/
 
 Nodejs https://nodejs.org/en
 MySQL https://dev.mysql.com/downloads/
