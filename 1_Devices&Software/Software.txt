@@ -95,7 +95,7 @@ Git https://git-scm.com/downloads
 Git Extension(公司) https://github.com/gitextensions/gitextensions/releases
 VSCode https://code.visualstudio.com/download
 Xschell https://www.netsarang.com/en/xshell/
-C/C++ https://www.codeblocks.org/downloads/
+C/C++ https://www.codeblocks.org/downloads/ 或者 MinGW-w64（跨平台） https://www.msys2.org/ 或者 MSVC Visual Studio
 Eclipse(J2EE) https://www.eclipse.org/downloads/packages/
 Maven https://maven.apache.org/download.cgi
 Tomcat https://tomcat.apache.org/
