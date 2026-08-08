@@ -42,6 +42,7 @@ notepad-- https://gitee.com/cxasm/notepad--/releases
 chrome offline https://www.google.com/intl/en/chrome/?standalone=1
 git https://git-scm.com/downloads
 驱动 Driver Booster https://www.iobit.com/en/driver-booster.php
+图吧工具箱 https://www.tbtool.cn/
 imageclass看图软件 https://imageglass.org/releases
 Potplaer视频软件 https://potplayer.info/download/
 VLC视频软件 https://www.videolan.org/vlc/download-windows.html
