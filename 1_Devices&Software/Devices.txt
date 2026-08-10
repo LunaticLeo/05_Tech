@@ -18,14 +18,14 @@ Insignia Fire TV (Best Buy)
 60 HZ; Model Year 2023; Series F30 Series
 https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-edition-smart-tv-na.html?v=ftveditioninsignia4k_2020
 
-======================================================
+===================
 
 Redmi K30Pro
 Qualcomm Snapdragon 865 5G Octa-core
 RAM: 8G+3G
 ROM: 128G
 
-======================================================
+===================
 
 OnePlus Nord CE2 Lite 5G
 Qualcommn Snapdragon 695 5G Octa-core
