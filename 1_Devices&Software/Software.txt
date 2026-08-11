@@ -49,6 +49,7 @@ VLC视频软件 https://www.videolan.org/vlc/download-windows.html
    
 qBittorrent https://www.qbittorrent.org/download
 7 taskbar Tweaker(取消win10任务栏同一个软件折叠所有窗口) https://ramensoftware.com/7-taskbar-tweaker
+Windhawk(win11任务栏调整) https://windhawk.net/  mods:移除任务栏自动合并 Disable grouping on the taskbar; 取消预览 Disable Taskbar Thumbnails;
 RegistryShortcutsW1064bit（添加或取消快捷访问）
 格式工厂 http://www.pcfreetime.com/formatfactory/cn/download.html
 v2rayN https://github.com/2dust/v2rayN/releases
