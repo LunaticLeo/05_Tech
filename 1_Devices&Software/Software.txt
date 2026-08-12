@@ -43,6 +43,7 @@ chrome offline https://www.google.com/intl/en/chrome/?standalone=1
 git https://git-scm.com/downloads
 驱动 Driver Booster https://www.iobit.com/en/driver-booster.php
 图吧工具箱 https://www.tbtool.cn/
+Clover（修改文件管理器，添加书签，比快捷访问好用？）http://en.ejie.me/
 imageclass看图软件 https://imageglass.org/releases
 Potplaer视频软件 https://potplayer.info/download/
 VLC视频软件 https://www.videolan.org/vlc/download-windows.html
