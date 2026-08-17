@@ -11,7 +11,8 @@ The `TaskManager` class works with posts that contain engagement data like the n
 ---
 
 ## **Function Description**
-
+![alt text](test_images/image.png)
+![alt text](test_images/image-1.png)
 Complete the `TaskManager` class in the editor below. The class should have the following methods:
 
 ### **1. addTask(postId, country, likes, shares)**
