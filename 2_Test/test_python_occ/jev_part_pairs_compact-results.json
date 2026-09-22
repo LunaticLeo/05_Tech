@@ -1,0 +1,948 @@
+{
+    "line": 1,
+    "input": {
+        "sample_id": "pair_2_158",
+        "model": "openjev",
+        "state": {
+            "task": "Given two CAD parts, infer whether their intended assembly uses concentric and/or coincident mates from the supplied geometry.",
+            "partA": {
+                "id": 2,
+                "name": "01-01-01 ENGINE_BLOCK",
+                "bbox": [
+                    [
+                        -66,
+                        -157,
+                        -25
+                    ],
+                    [
+                        375,
+                        174,
+                        200
+                    ]
+                ],
+                "face_count": 3012,
+                "face_types": {
+                    "bspline": 1381,
+                    "cone": 131,
+                    "cylinder": 621,
+                    "plane": 620,
+                    "sphere": 116,
+                    "torus": 143
+                },
+                "faces": [
+                    {
+                        "id": 2818,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "r": 42.5,
+                        "c": [
+                            190,
+                            0,
+                            135
+                        ],
+                        "area": 33379.4,
+                        "out": true
+                    },
+                    {
+                        "id": 2823,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "r": 42.5,
+                        "c": [
+                            95,
+                            0,
+                            135
+                        ],
+                        "area": 33379.4,
+                        "out": true
+                    },
+                    {
+                        "id": 2824,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "r": 42.5,
+                        "c": [
+                            285,
+                            0,
+                            135
+                        ],
+                        "area": 33379.4,
+                        "out": true
+                    },
+                    {
+                        "id": 2825,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "r": 42.5,
+                        "c": [
+                            0,
+                            0,
+                            135
+                        ],
+                        "area": 33379.4,
+                        "out": true
+                    },
+                    {
+                        "id": 695,
+                        "type": "cylinder",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "r": 4,
+                        "c": [
+                            147.5,
+                            64,
+                            102
+                        ],
+                        "area": 9880.85,
+                        "out": true
+                    },
+                    {
+                        "id": 2692,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "r": 6,
+                        "c": [
+                            -29.5,
+                            -67.5,
+                            92.73
+                        ],
+                        "area": 5593.66,
+                        "out": true
+                    },
+                    {
+                        "id": 694,
+                        "type": "cylinder",
+                        "axis": [
+                            -1,
+                            0,
+                            0
+                        ],
+                        "r": 8,
+                        "c": [
+                            215,
+                            68.35,
+                            102
+                        ],
+                        "area": 3446.58,
+                        "out": true
+                    },
+                    {
+                        "id": 2554,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "r": 7,
+                        "c": [
+                            47.5,
+                            47.5,
+                            165
+                        ],
+                        "area": 3078.76,
+                        "out": true
+                    },
+                    {
+                        "id": 2555,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "r": 7,
+                        "c": [
+                            -47.5,
+                            47.5,
+                            165
+                        ],
+                        "area": 3078.76,
+                        "out": true
+                    },
+                    {
+                        "id": 2556,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "r": 7,
+                        "c": [
+                            237.5,
+                            47.5,
+                            165
+                        ],
+                        "area": 3078.76,
+                        "out": true
+                    },
+                    {
+                        "id": 2836,
+                        "type": "plane",
+                        "normal": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "c": [
+                            154.5,
+                            102.5,
+                            -25
+                        ],
+                        "area": 13938.8,
+                        "out": true
+                    },
+                    {
+                        "id": 2835,
+                        "type": "plane",
+                        "normal": [
+                            0,
+                            0,
+                            -1
+                        ],
+                        "c": [
+                            154.5,
+                            -102.5,
+                            -25
+                        ],
+                        "area": 13856.2,
+                        "out": true
+                    },
+                    {
+                        "id": 2896,
+                        "type": "plane",
+                        "normal": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "c": [
+                            149,
+                            -2.5,
+                            200
+                        ],
+                        "area": 13662,
+                        "out": false
+                    },
+                    {
+                        "id": 2637,
+                        "type": "plane",
+                        "normal": [
+                            -1,
+                            0,
+                            0
+                        ],
+                        "c": [
+                            -66,
+                            14.26,
+                            87.5
+                        ],
+                        "area": 13118.5,
+                        "out": true
+                    },
+                    {
+                        "id": 519,
+                        "type": "plane",
+                        "normal": [
+                            -1,
+                            0,
+                            0
+                        ],
+                        "c": [
+                            -62,
+                            -10.19,
+                            11.64
+                        ],
+                        "area": 7008.67,
+                        "out": false
+                    },
+                    {
+                        "id": 2583,
+                        "type": "plane",
+                        "normal": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "c": [
+                            375,
+                            0,
+                            86
+                        ],
+                        "area": 6104.71,
+                        "out": true
+                    },
+                    {
+                        "id": 2582,
+                        "type": "plane",
+                        "normal": [
+                            -0.9998,
+                            0.0175,
+                            -0.0075
+                        ],
+                        "c": [
+                            335.42,
+                            -118.78,
+                            76.6
+                        ],
+                        "area": 5570.56,
+                        "out": false
+                    },
+                    {
+                        "id": 2812,
+                        "type": "plane",
+                        "normal": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "c": [
+                            142.5,
+                            0,
+                            200
+                        ],
+                        "area": 5085.05,
+                        "out": true
+                    },
+                    {
+                        "id": 2694,
+                        "type": "plane",
+                        "normal": [
+                            -1,
+                            0,
+                            0
+                        ],
+                        "c": [
+                            225,
+                            0,
+                            30.7
+                        ],
+                        "area": 4837.59,
+                        "out": false
+                    },
+                    {
+                        "id": 2695,
+                        "type": "plane",
+                        "normal": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "c": [
+                            155,
+                            0,
+                            30.7
+                        ],
+                        "area": 4837.59,
+                        "out": true
+                    },
+                    {
+                        "id": 20,
+                        "type": "cone",
+                        "axis": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "half_angle": 0.000768,
+                        "c": [
+                            290.3,
+                            0,
+                            136.75
+                        ],
+                        "area": 31117.9,
+                        "out": true
+                    },
+                    {
+                        "id": 26,
+                        "type": "cone",
+                        "axis": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "half_angle": 0.000768,
+                        "c": [
+                            -5.3,
+                            0,
+                            136.75
+                        ],
+                        "area": 31117.2,
+                        "out": true
+                    },
+                    {
+                        "id": 546,
+                        "type": "sphere",
+                        "r": 12,
+                        "c": [
+                            329.01,
+                            82.01,
+                            185.02
+                        ],
+                        "area": 454.24,
+                        "out": true
+                    },
+                    {
+                        "id": 794,
+                        "type": "torus",
+                        "axis": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "R": 148.733,
+                        "r": 73.5,
+                        "c": [
+                            190,
+                            82.32,
+                            47.66
+                        ],
+                        "area": 3072.72,
+                        "out": true
+                    }
+                ]
+            },
+            "partB": {
+                "id": 158,
+                "name": "08-02 AC_BRACKET",
+                "bbox": [
+                    [
+                        0,
+                        -98.25,
+                        -93
+                    ],
+                    [
+                        130,
+                        11,
+                        145.61
+                    ]
+                ],
+                "face_count": 386,
+                "face_types": {
+                    "bspline": 164,
+                    "cone": 31,
+                    "cylinder": 71,
+                    "plane": 58,
+                    "sphere": 20,
+                    "torus": 42
+                },
+                "faces": [
+                    {
+                        "id": 383,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "r": 40,
+                        "c": [
+                            90,
+                            -65,
+                            56
+                        ],
+                        "area": 11136.6,
+                        "out": true
+                    },
+                    {
+                        "id": 381,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "r": 40,
+                        "c": [
+                            90,
+                            -25,
+                            86.5
+                        ],
+                        "area": 3596.56,
+                        "out": true
+                    },
+                    {
+                        "id": 382,
+                        "type": "cylinder",
+                        "axis": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "r": 40,
+                        "c": [
+                            90,
+                            -25,
+                            23
+                        ],
+                        "area": 2968.25,
+                        "out": true
+                    },
+                    {
+                        "id": 377,
+                        "type": "cylinder",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "r": 6,
+                        "c": [
+                            22,
+                            -3,
+                            -82
+                        ],
+                        "area": 829.43,
+                        "out": true
+                    },
+                    {
+                        "id": 378,
+                        "type": "cylinder",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "r": 6,
+                        "c": [
+                            22,
+                            3,
+                            -82
+                        ],
+                        "area": 829.43,
+                        "out": true
+                    },
+                    {
+                        "id": 379,
+                        "type": "cylinder",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "r": 6,
+                        "c": [
+                            22,
+                            -3,
+                            0
+                        ],
+                        "area": 829.43,
+                        "out": true
+                    },
+                    {
+                        "id": 380,
+                        "type": "cylinder",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "r": 6,
+                        "c": [
+                            22,
+                            3,
+                            0
+                        ],
+                        "area": 829.43,
+                        "out": true
+                    },
+                    {
+                        "id": 370,
+                        "type": "cylinder",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "r": 6,
+                        "c": [
+                            23.5,
+                            -47,
+                            -82
+                        ],
+                        "area": 772.88,
+                        "out": true
+                    },
+                    {
+                        "id": 371,
+                        "type": "cylinder",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "r": 6,
+                        "c": [
+                            23.5,
+                            -53,
+                            -82
+                        ],
+                        "area": 772.88,
+                        "out": true
+                    },
+                    {
+                        "id": 372,
+                        "type": "cylinder",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "r": 6,
+                        "c": [
+                            23.5,
+                            -47,
+                            0
+                        ],
+                        "area": 772.88,
+                        "out": true
+                    },
+                    {
+                        "id": 2,
+                        "type": "plane",
+                        "normal": [
+                            -1,
+                            0,
+                            0
+                        ],
+                        "c": [
+                            10,
+                            -45,
+                            1.12
+                        ],
+                        "area": 11449.3,
+                        "out": true
+                    },
+                    {
+                        "id": 168,
+                        "type": "plane",
+                        "normal": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "c": [
+                            20,
+                            -47.49,
+                            42.52
+                        ],
+                        "area": 2489.26,
+                        "out": true
+                    },
+                    {
+                        "id": 177,
+                        "type": "plane",
+                        "normal": [
+                            0.0523,
+                            0,
+                            0.9986
+                        ],
+                        "c": [
+                            34.46,
+                            -45,
+                            85.24
+                        ],
+                        "area": 1794.19,
+                        "out": true
+                    },
+                    {
+                        "id": 266,
+                        "type": "plane",
+                        "normal": [
+                            0.0523,
+                            -0.8498,
+                            0.5245
+                        ],
+                        "c": [
+                            35.95,
+                            -28.84,
+                            40.39
+                        ],
+                        "area": 1366.32,
+                        "out": true
+                    },
+                    {
+                        "id": 272,
+                        "type": "plane",
+                        "normal": [
+                            0.0523,
+                            0,
+                            -0.9986
+                        ],
+                        "c": [
+                            35.95,
+                            -46.49,
+                            75.26
+                        ],
+                        "area": 1221.73,
+                        "out": true
+                    },
+                    {
+                        "id": 84,
+                        "type": "plane",
+                        "normal": [
+                            0.0523,
+                            0.9986,
+                            0
+                        ],
+                        "c": [
+                            34.46,
+                            4.24,
+                            53.5
+                        ],
+                        "area": 1165.01,
+                        "out": true
+                    },
+                    {
+                        "id": 60,
+                        "type": "plane",
+                        "normal": [
+                            0.0523,
+                            -0.9986,
+                            0
+                        ],
+                        "c": [
+                            34.46,
+                            -94.24,
+                            53.5
+                        ],
+                        "area": 1164.85,
+                        "out": true
+                    },
+                    {
+                        "id": 230,
+                        "type": "plane",
+                        "normal": [
+                            0.0523,
+                            0.8498,
+                            -0.5245
+                        ],
+                        "c": [
+                            35.95,
+                            -25.57,
+                            34.17
+                        ],
+                        "area": 1135.98,
+                        "out": true
+                    },
+                    {
+                        "id": 173,
+                        "type": "plane",
+                        "normal": [
+                            0.0523,
+                            0.9986,
+                            0
+                        ],
+                        "c": [
+                            36.24,
+                            -84.28,
+                            50.3
+                        ],
+                        "area": 941.13,
+                        "out": true
+                    },
+                    {
+                        "id": 171,
+                        "type": "plane",
+                        "normal": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "c": [
+                            20,
+                            -26.58,
+                            -49.34
+                        ],
+                        "area": 918.41,
+                        "out": true
+                    },
+                    {
+                        "id": 153,
+                        "type": "cone",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "half_angle": 0.005887,
+                        "c": [
+                            31.79,
+                            -55.5,
+                            -82.44
+                        ],
+                        "area": 671.97,
+                        "out": true
+                    },
+                    {
+                        "id": 21,
+                        "type": "cone",
+                        "axis": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "half_angle": 0.005887,
+                        "c": [
+                            31.79,
+                            5.5,
+                            -82.44
+                        ],
+                        "area": 671.97,
+                        "out": true
+                    },
+                    {
+                        "id": 384,
+                        "type": "sphere",
+                        "r": 60.8333,
+                        "c": [
+                            109.72,
+                            -45,
+                            138.54
+                        ],
+                        "area": 2700.64,
+                        "out": true
+                    },
+                    {
+                        "id": 49,
+                        "type": "torus",
+                        "axis": [
+                            -1,
+                            0,
+                            0
+                        ],
+                        "R": 12.3739,
+                        "r": 2,
+                        "c": [
+                            9.05,
+                            -49.67,
+                            0
+                        ],
+                        "area": 150.3,
+                        "out": true
+                    }
+                ]
+            }
+        },
+        "questions": {
+            "concentric": {
+                "type": "noul",
+                "instructions": [
+                    "Do Part A and Part B require at least one concentric assembly mate?",
+                    "A concentric mate means cylindrical or rotational features of the two parts are intended to share an axis."
+                ],
+                "criteria": {
+                    "true": "At least one concentric mate is appropriate between these two parts.",
+                    "false": "No concentric mate is appropriate between these two parts."
+                }
+            },
+            "coincident": {
+                "type": "noul",
+                "instructions": [
+                    "Do Part A and Part B require at least one coincident assembly mate?",
+                    "A coincident mate means planar faces of the two parts are intended to contact or coincide."
+                ],
+                "criteria": {
+                    "true": "At least one coincident mate is appropriate between these two parts.",
+                    "false": "No coincident mate is appropriate between these two parts."
+                }
+            }
+        }
+    },
+    "status": "done",
+    "judge": {
+        "id": "demo:content-moderation",
+        "name": "Content moderation",
+        "revision": 0,
+        "questions": {
+            "label": {
+                "type": "choice",
+                "instructions": "Which label best describes this comment?",
+                "criteria": {
+                    "acceptable": "Civil disagreement or ordinary conversation",
+                    "insult": "Rude or insulting but not threatening",
+                    "harassment": "Targeted abuse or encouraging someone to leave or harm themselves",
+                    "spam": "Advertising or irrelevant links"
+                }
+            },
+            "needs_review": {
+                "type": "noul",
+                "instructions": "Should a human moderator review this comment before it stays visible?"
+            },
+            "severity": {
+                "type": "score",
+                "instructions": "How severe is the harm in this comment?",
+                "criteria": [
+                    "None",
+                    "Low",
+                    "Moderate",
+                    "High"
+                ]
+            }
+        }
+    },
+    "model": "jev-1.13.0",
+    "answers": {
+        "label": {
+            "type": "choice",
+            "choice": "acceptable",
+            "confidence": 0.99,
+            "probabilities": {
+                "insult": 0,
+                "spam": 0.01,
+                "harassment": 0,
+                "acceptable": 0.99
+            }
+        },
+        "needs_review": {
+            "type": "noul",
+            "noul": 0.45
+        },
+        "severity": {
+            "type": "score",
+            "score": 0.02,
+            "confidence": 0.98,
+            "legend": {
+                "0": "None",
+                "1": "Low",
+                "2": "Moderate",
+                "3": "High"
+            },
+            "probabilities": {
+                "0": 1,
+                "1": 0,
+                "2": 0,
+                "3": 0
+            }
+        }
+    },
+    "usage": {
+        "input_tokens": 4634,
+        "output_tokens": 79
+    },
+    "error": ""
+}
