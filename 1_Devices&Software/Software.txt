@@ -15,7 +15,7 @@ OKTA，Github,Google Translate,X，Teams，Youtube，Chase,BOFA,Discover,Bilt,Ma
 
 ==================================
 
-Windows重装：
+Windows系统：
 
 Windows官网下载 https://www.microsoft.com/zh-cn/software-download/windows10 使用f12，more tools->network conditions,调节network的agent为非pc，即可直接下载文件
 
@@ -29,13 +29,27 @@ Wifi and Bluetooth Driver https://www.szedup.com/support/driver-download/pcie/ep
 lenvo笔记本
 进bios，FN+F2
 
-Windows 重装的时候安装完网络驱动之后就可以换成英语了
+==================================
+
+windows设置：
+下载英语/中文
+
+显示计算机图标，图标缩小靠右
+调整电源设置为永不自动休眠
+文件扩展名
+dark mode
+任务栏靠左
+win11右键菜单替换为旧版：（Powershell Admin模式，然后重启exploer）reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve 
+
 disable recent files folders in quick access
 调节录音音量，点击输入设备，选择麦克风增强
 Nvidia调整颜色显示设置为full
+
 安装完软件后设置启动项
 
-常用:
+==================================
+常用软件： 
+
 .net framework8 https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.6-windows-x64-installer?cid=getdotnetcore
 7z（已有） https://www.7-zip.org/
 notepad-- https://gitee.com/cxasm/notepad--/releases
@@ -58,7 +72,7 @@ Clash VPN https://clashsource.com/zh-CN/index.html
 HWmonitor 温度检测 https://www.cpuid.com/softwares/hwmonitor.html
 
 办公：
-office(已有) 
+office(已有) 磁力种子
 adobe https://helpx.adobe.com/support.html
 adobe acrobat pro torrent(已有) https://helpx.adobe.com/acrobat/kb/acrobat-dc-downloads.html
 adobe photoshop 2024 torrent(已有)
@@ -94,58 +108,71 @@ steam community创意工坊 国内访问 https://www.dogfight360.com/blog/
 
 Windows Coding：
 
-Git https://git-scm.com/downloads
-Git Extension(公司) https://github.com/gitextensions/gitextensions/releases
-VSCode https://code.visualstudio.com/download
-Xschell https://www.netsarang.com/en/xshell/
-C/C++ https://www.codeblocks.org/downloads/ 或者 MinGW-w64（跨平台） https://www.msys2.org/ 或者 MSVC Visual Studio
-Eclipse(J2EE) https://www.eclipse.org/downloads/packages/
-Maven https://maven.apache.org/download.cgi
-Tomcat https://tomcat.apache.org/
-CMake https: //cmake.org/download/
-VStudio 18 2026 https://visualstudio.microsoft.com/zh-hans/downloads/
+# Git
+Git：https://git-scm.com/downloads
+Git Extensions（公司）：https://github.com/gitextensions/gitextensions/releases
 
-Nodejs https://nodejs.org/en
-MySQL https://dev.mysql.com/downloads/
-PostgreSQL https://www.postgresql.org/download/windows/
-DBeaver https://dbeaver.io/download/
-MongoDB https://www.mongodb.com/try/download/community
-MongoDB Compass https://www.mongodb.com/try/download/compass
+# IDE
+VSCode：https://code.visualstudio.com/download
+Eclipse（J2EE）：https://www.eclipse.org/downloads/packages/
+Visual Studio 17 2022 Community：https://aka.ms/vs/17/release/vs_Community.exe
+Visual Studio 18 2026 Community：https://visualstudio.microsoft.com/vs/community/
+Code::Blocks（C/C++）：https://www.codeblocks.org/downloads/
 
-#python安装
-https://www.python.org/downloads/
-管理员模式安装给All Users 
-#python 添加到PATH（注意Python目录，修改版本号）
-#用户级
-setx PATH "%PATH%;C:\Users\liaoyufu\AppData\Local\Python\pythoncore-3.14-64\Scripts"
-#系统级（管理员权限打开CMD）
-setx PATH "%PATH%;C:\Users\liaoyufu\AppData\Local\Python\pythoncore-3.14-64\Scripts" /M
+# Shell
+Xshell：https://www.netsarang.com/en/xshell/
+WinSCP https://winscp.net/download/WinSCP-6.5.7-Setup.exe/download
 
-Jupyter安装  
-#check if python in the user/roaming 
-#administrator mode 
-python3/python -m pip install --upgrade pip
-python -m pip install jupyterlab
-#Python添加到PATH
-jupyter lab #localhost:8888/lab
-jupyter-lab
-#Python 不添加到PATH
-python -m jupyterlab 
+# Java开发
+Maven：https://maven.apache.org/download.cgi
+Tomcat：https://tomcat.apache.org/
 
-Java安装
-JRE只是运行用，无法开发。JDK8和JDK17都是长期维护的JDK版本，建议JDK17，JDK8支持时间最长，但是Spring Framework 6 将采用 Java 17 和 Jakarta EE 9。
-JDK8 https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
-JDK17 https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
-下载安装包之后需要配置环境，Windows环境下需要添加环境变量，有两种方法
-#以管理员权限打开命令行，运行如下命令
+# C/C++编译
+MinGW-w64（通过 MSYS2）：https://www.msys2.org/
+MSVC（Visual Studio 自带）：见 Visual Studio
+CMake：https://cmake.org/download/
+
+# Node.js
+Node.js：https://nodejs.org/en
+
+# Database
+MySQL：https://dev.mysql.com/downloads/
+PostgreSQL（Windows）：https://www.postgresql.org/download/windows/
+MongoDB Community：https://www.mongodb.com/try/download/community
+
+# Database Management
+DBeaver：https://dbeaver.io/download/
+MongoDB Compass：https://www.mongodb.com/try/download/compass
+
+# AI
+Codex: https://openai.com/codex/
+ClaudeCode: 
+
+
+# Python
+下载：https://www.python.org/downloads/
+安装：管理员模式，勾选 Add Python to PATH，选 Install for all users
+未勾选 PATH 时，注意替换版本号：
+用户级：setx PATH "%PATH%;C:\Users\liaoyufu\AppData\Local\Python\pythoncore-3.14-64\Scripts"
+系统级：setx PATH "%PATH%;C:\Users\liaoyufu\AppData\Local\Python\pythoncore-3.14-64\Scripts" /M
+# 检查 python --version
+
+# Jupyter
+前提：Python 已加入 PATH，管理员模式
+安装：python -m pip install --upgrade pip
+      python -m pip install jupyterlab
+启动：jupyter lab 或 jupyter-lab（localhost:8888/lab）
+未加 PATH：python -m jupyterlab
+
+# Java
+JDK8：https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+JDK17：https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+说明：JRE 仅运行；JDK8 支持最久；JDK17 推荐；Spring 6 需 Java 17 + Jakarta EE 9
+配置（管理员 CMD）：
 setx JAVA_HOME "C:\Program Files\Java\jdk-17" /M
 setx PATH "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\lib;" /M
-#手动打开系统环境
-JAVA_HOME: C:\Program Files\Java\jdk-17 #新建
-PATH： ;%JAVA_HOME%\bin;%JAVA_HOME%\lib; #原内容上添加
-#安装完成后运行cmd运行如下命令，查看是否配置成功，两条命令需都能显示。环境配置需保存之后重开cmd才能生效
-java -version
-javac -version
+手动：JAVA_HOME=C:\Program Files\Java\jdk-17；PATH 加 ;%JAVA_HOME%\bin;%JAVA_HOME%\lib;
+验证（重开 CMD）：java -version；javac -version
 
 ==================================
 
