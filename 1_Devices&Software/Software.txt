@@ -135,6 +135,9 @@ CMake：https://cmake.org/download/
 # Node.js
 Node.js：https://nodejs.org/en
 
+# QT
+QT5.9.7 https://download.qt.io/archive/qt/5.9/5.9.7/
+
 # Database
 MySQL：https://dev.mysql.com/downloads/
 PostgreSQL（Windows）：https://www.postgresql.org/download/windows/
@@ -146,8 +149,9 @@ MongoDB Compass：https://www.mongodb.com/try/download/compass
 
 # AI
 Codex: https://openai.com/codex/
-ClaudeCode: 
-
+ClaudeCode: https://claude.com/download
+Deepseek Harness: https://www.deepseek.com/en/harness/
+OpenCode: https://opencode.ai/download
 
 # Python
 下载：https://www.python.org/downloads/
