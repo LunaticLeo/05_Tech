@@ -181,7 +181,7 @@ setx PATH "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\lib;" /M
 ==================================
 
 Fire TV
-adblink PC上管理安卓电视，可以直接添加文件，安装软件 https://adblink.me/download/
+adblink PC上管理安卓电视，可以直接添加文件，安装软件 https://jocala.com/adblink.html
 
 Launcher Manager https://troypoint.com/troypoint-toolbox/ ；选Wolf Launcher
 adb shell pm grant com.wolf.minilm android.permission.SYSTEM_ALERT_WINDOW
