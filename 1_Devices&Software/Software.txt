@@ -104,6 +104,17 @@ shadowsocks https://github.com/shadowsocks/shadowsocks-windows/releases
 v2rayN https://github.com/2dust/v2rayN/releases
 steam community创意工坊 国内访问 https://www.dogfight360.com/blog/
 
+
+==================================
+
+DIY 主机相关软件：
+
+AMD Chipset Software： https://www.amd.com/zh-cn/support/download/drivers.html AMD驱动，AMDsoftware只有在使用AMD核显才需要
+Nvidia App： https://www.nvidia.com/en-us/software/nvidia-app/ Nvidia 驱动
+GigaByte Control Center： https://www.gigabyte.com/Consumer/Software/Gigabyte-Control-Center/global 主板驱动，可以更新bios，管理灯光。
+SteelSeries GG： https://steelseries.com/gg/moments/download 管理赛睿无线耳机，可以用来调EQ。 默认选Sonar Gaming，将所有语音改为Chat即可。 会自动根据游戏选EQ。 按1次电源键： 提示音单声关闭降噪，双声开启降噪。连按2次电源键：提示音单声关闭透明，双声开启了透明模。
+Realtek Audio： 管理主板上耳机接口，可以禁止默认启动
+
 ==================================
 
 Windows Coding：
