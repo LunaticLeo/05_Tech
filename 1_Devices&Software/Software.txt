@@ -32,6 +32,10 @@ Wifi and Bluetooth Driver https://www.szedup.com/support/driver-download/pcie/ep
 lenvo笔记本
 进bios，FN+F2
 
+DIY主机：
+进入 BIOS：开机连续按 Del
+启动设备选择：开机连续按 F12
+
 ==================================
 
 windows设置：
@@ -53,17 +57,12 @@ Nvidia调整颜色显示设置为full
 ==================================
 常用软件： 
 
-.net framework8 https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.6-windows-x64-installer?cid=getdotnetcore
 7z（已有） https://www.7-zip.org/
 notepad-- https://gitee.com/cxasm/notepad--/releases
 chrome offline https://www.google.com/intl/en/chrome/?standalone=1
 git https://git-scm.com/downloads
-驱动 Driver Booster https://www.iobit.com/en/driver-booster.php
-图吧工具箱 https://www.tbtool.cn/
-Clover（修改文件管理器，添加书签，比快捷访问好用？）http://en.ejie.me/
 imageclass看图软件 https://imageglass.org/releases
 Potplaer视频软件 https://potplayer.info/download/
-VLC视频软件 https://www.videolan.org/vlc/download-windows.html
    
 qBittorrent https://www.qbittorrent.org/download
 7 taskbar Tweaker(取消win10任务栏同一个软件折叠所有窗口) https://ramensoftware.com/7-taskbar-tweaker
@@ -80,7 +79,6 @@ adobe https://helpx.adobe.com/support.html
 adobe acrobat pro torrent(已有) https://helpx.adobe.com/acrobat/kb/acrobat-dc-downloads.html
 adobe photoshop 2024 torrent(已有)
 Adobe Premiere Pro 2024 torrent(已有)
-Zoom https://zoom.us/download
 
 生活：
 QQ https://im.qq.com/pcqq/index.shtml
@@ -107,10 +105,9 @@ shadowsocks https://github.com/shadowsocks/shadowsocks-windows/releases
 v2rayN https://github.com/2dust/v2rayN/releases
 steam community创意工坊 国内访问 https://www.dogfight360.com/blog/
 
-
 ==================================
 
-DIY 主机相关软件：
+DIY 主机相关管理软件：
 
 AMD Chipset Software： https://www.amd.com/zh-cn/support/download/drivers.html AMD驱动，AMDsoftware只有在使用AMD核显才需要
 Nvidia App： https://www.nvidia.com/en-us/software/nvidia-app/ Nvidia 驱动
