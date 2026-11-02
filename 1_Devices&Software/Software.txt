@@ -15,6 +15,12 @@ OKTA，Github,Google Translate,X，Teams，Youtube，Chase,BOFA,Discover,Bilt,Ma
 
 ==================================
 
+安卓TV：
+当贝播放器
+adblink PC上管理安卓电视，可以直接添加文件，安装软件 https://jocala.com/adblink.html
+
+==================================
+
 Windows系统：
 
 Windows官网下载 https://www.microsoft.com/zh-cn/software-download/windows10 使用f12，more tools->network conditions,调节network的agent为非pc，即可直接下载文件
