@@ -174,9 +174,21 @@ OpenCode: https://opencode.ai/download
 下载：https://www.python.org/downloads/
 安装：管理员模式，勾选 Add Python to PATH，选 Install for all users
 未勾选 PATH 时，注意替换版本号：
-用户级：setx PATH "%PATH%;C:\Users\liaoyufu\AppData\Local\Python\pythoncore-3.14-64\Scripts"
-系统级：setx PATH "%PATH%;C:\Users\liaoyufu\AppData\Local\Python\pythoncore-3.14-64\Scripts" /M
-# 检查 python --version
+用户级：
+$python = 'C:\Users\liaoyufu\AppData\Local\Python\xxxxxx'
+$path = [Environment]::GetEnvironmentVariable('Path', 'User')
+$paths = @($path -split ';' | Where-Object { $_ })
+$paths += $python, "$python\Scripts"
+[Environment]::SetEnvironmentVariable('Path', (($paths | Select-Object -Unique) -join ';'), 'User')
+系统级：
+$python = 'C:\Program Files\Python314'
+$path = [Environment]::GetEnvironmentVariable('Path', 'Machine')
+$paths = @($path -split ';' | Where-Object { $_ })
+$paths += $python, "$python\Scripts"
+[Environment]::SetEnvironmentVariable('Path', (($paths | Select-Object -Unique) -join ';'), 'Machine')
+# 检查 
+python --version
+python -m pip --version
 
 # Jupyter
 前提：Python 已加入 PATH，管理员模式
@@ -189,11 +201,16 @@ OpenCode: https://opencode.ai/download
 JDK8：https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
 JDK17：https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 说明：JRE 仅运行；JDK8 支持最久；JDK17 推荐；Spring 6 需 Java 17 + Jakarta EE 9
-配置（管理员 CMD）：
-setx JAVA_HOME "C:\Program Files\Java\jdk-17" /M
-setx PATH "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\lib;" /M
-手动：JAVA_HOME=C:\Program Files\Java\jdk-17；PATH 加 ;%JAVA_HOME%\bin;%JAVA_HOME%\lib;
-验证（重开 CMD）：java -version；javac -version
+配置（管理员 Powershell）：
+$jdk = 'C:\Program Files\Java\jdk-17'
+# 设置 JAVA_HOME
+[Environment]::SetEnvironmentVariable('JAVA_HOME', $jdk, 'Machine')
+# 添加 JDK bin 到系统 PATH，避免重复
+$path = [Environment]::GetEnvironmentVariable('Path', 'Machine')
+if ("$jdk\bin" -notin ($path -split ';')) {
+    [Environment]::SetEnvironmentVariable('Path', "$path;$jdk\bin", 'Machine')
+}
+验证（重开）：java -version；javac -version
 
 ==================================
 
